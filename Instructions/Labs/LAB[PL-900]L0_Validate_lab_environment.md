@@ -25,8 +25,28 @@ Tenants must not be converted to a paid subscription. Tenants obtained as a part
 
 ## Exercise 1: Access Microsoft Power Platform
 
-In this exercise, you will verify that you can access Power Apps.
+In this exercise, you will create an environment and verify that you can access Power Apps
 
+### Task 1: Create an Environment
+
+1.Browse the URL in a private window - https://admin.powerplatform.microsoft.com/ and signin using your lab credential.
+
+2. From the left menu, click on Manage and then click on +New to create a new envrionment.
+3. In the creation window, provide the following detials:
+ - Type : Trail
+ - Region : UAE
+ - Name : Dev one [YourName}
+ - Expand the default setting and toggle the Dataverse(Add dataverse data store) to ON
+
+4. Click on **Next**
+
+5. In the next page
+   - Language - English (US)
+   - Currency - AED
+   - Security Group - click **+ select** and select **None**
+  
+6. Then click on **Done** and then **Save**. You will see the environment will be prepared (it will take 2 minutes for the environment to be ready)
+   
 ### Task 1.1 – Sign in to Power Apps
 
 1. Verify that you have your **Microsoft 365 credentials** from the Authorized Lab Host available. The credentials will be in the **Resources** tab.
