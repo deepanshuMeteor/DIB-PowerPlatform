@@ -89,7 +89,7 @@ While employees submit requests using a mobile canvas app, the Contoso facilitie
 1.  In the search bar at the top-right, type **Facility Request**, and then select the **Facility Request** table from the results.
 1.  Under **Data experiences**, select **Views**.
 1.  Select the **Active Facility Requests** view, select the **Commands** menu (...), and select **Edit** > **Edit in new tab**.
-1.  Select the caret next to the **Created On** column and select **Remove**.
+1.  Select the caret (∨- dropdown) next to the **Created On** column and select **Remove**.
 1.  Select the **Description** column to add to the view.
 1.  Select the **Date Requested** column to add to the view.
 1.  Select the **Estimated Cost** column to add to the view.
