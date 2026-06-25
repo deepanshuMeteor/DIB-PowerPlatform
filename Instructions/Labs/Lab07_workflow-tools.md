@@ -207,7 +207,7 @@ In this exercise, you create a workflow that sends a message to Microsoft Teams.
    - **Credentials to use**: End user credentials
    - **Description**: `Please sign in to notify Teams`
 
-1. In the **Inputs** section, for *Fill using* select **Dynamically fill with AI**.
+1. In the **Inputs** section, for *Fill using* select **fill with AI**.
   This allows the agent to determine the appropriate input value dynamically from the conversation context.
 
 1. In the **Completion** section, for **After running**, select **Write the response with generative AI**.
@@ -417,7 +417,7 @@ In this exercise, you will use Copilot to create a topic from a description, cre
 
 1. In the **Name your topic** text box, enter **`Priority Tasks`**.
 
-1. In the **Create a topic to...** text box, enter `Ask the user to choose a priority from a list containing High, Medium, and Low`.
+1. In the **Create a topic to...** text box, enter `Ask the user to type a priority from High, Medium, and Low and convert the output into string instead of choice`.
 
 1. Select **Create**.
 
@@ -458,7 +458,7 @@ In this exercise, you will use Copilot to create a topic from a description, cre
 
 1. In the **Inputs** section, for **Fill using** select **Custom value** and select the **Priority** global variable.
 
-   ![Screenshot of the inputs of workflow as a tool.](../media/workflow-tool-inputs.png)
+
 
 1. In the **Completion** section, for **After running**, select **Write the response with generative AI**.
 
